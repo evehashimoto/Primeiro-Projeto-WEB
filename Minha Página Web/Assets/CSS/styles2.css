@@ -1,0 +1,35 @@
+body {
+    font-family: "Nunito", sans-serif;
+    background-color: #E9D7FA;
+    margin: 30px;
+}
+
+h1 {
+    text-align: center;
+    margin: auto;
+    color: #3e33d6;
+    font-style: italic;
+}
+
+p {
+    font-size: 18px;
+    margin: 20px;
+}
+
+.container {
+    display: flex; /* Configura o container como um flex container para permitir o layout flexível */
+    flex-wrap: wrap; /* Permite que os itens dentro do container se movam para a linha seguinte se não caberem na linha atual */
+    justify-content: center; /* Centraliza horizontalmente os itens dentro do container */
+}
+
+.box {
+    max-width: 500px; /* Define a largura máxima para as caixas que contêm as imagens */
+    text-align: center; /* Alinha o texto (e as imagens) dentro da caixa ao centro */
+    margin: 0 auto 40px auto; /* Define a margem superior como 0, margem lateral automática para centralização e margem inferior de 40px para espaço entre caixas */
+}
+
+.box img {
+    width: 100%; /* Faz com que as imagens se ajustem à largura total da caixa, mantendo a proporção */
+    height: auto; /* Mantém a proporção da imagem, ajustando a altura automaticamente */
+    border-radius: 8px; /* Adiciona bordas arredondadas às imagens, se desejado */
+}
